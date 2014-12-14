@@ -1,0 +1,12 @@
+k=26
+average speed:55.08
+k=26
+average speed:55.5975
+k=26
+average speed:-1.#IND
+k=26
+average speed:-1.#IND
+k=26
+average speed:57.6563
+k=26
+average speed:57.4537

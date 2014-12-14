@@ -1,0 +1,174 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestCA - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP78.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TestCA.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\CA\TestCA\simworld.cpp"
+"E:\CA\TestCA\TestCAView.cpp"
+"E:\CA\TestCA\UIConfig.cpp"
+"E:\CA\TestCA\DlgD.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP78.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP79.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TestCA.pdb" /debug /machine:I386 /out:"Debug/TestCA.exe" /pdbtype:sept 
+.\Debug\cell.obj
+.\Debug\changeable_cell.obj
+.\Debug\changeable_lane.obj
+.\Debug\DialogRun.obj
+.\Debug\DlgCar.obj
+.\Debug\lane.obj
+.\Debug\MainFrm.obj
+.\Debug\Saved_Cell.obj
+.\Debug\Saved_Lane.obj
+.\Debug\simworld.obj
+.\Debug\Splash.obj
+.\Debug\StdAfx.obj
+.\Debug\Strategy.obj
+.\Debug\TestCA.obj
+.\Debug\TestCADoc.obj
+.\Debug\TestCAView.obj
+.\Debug\UIConfig.obj
+.\Debug\Vehicle.obj
+.\Debug\TestCA.res
+.\Debug\Detector.obj
+.\Debug\DlgD.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP79.tmp"
+<h3>Output Window</h3>
+Compiling...
+simworld.cpp
+E:\CA\TestCA\simworld.cpp(29) : error C2039: 'UI' : is not a member of 'CView'
+        c:\program files\microsoft visual studio\vc98\mfc\include\afxwin.h(3542) : see declaration of 'CView'
+E:\CA\TestCA\simworld.cpp(29) : error C2143: syntax error : missing ')' before ';'
+E:\CA\TestCA\simworld.cpp(60) : error C2039: 'IsMB' : is not a member of 'CView'
+        c:\program files\microsoft visual studio\vc98\mfc\include\afxwin.h(3542) : see declaration of 'CView'
+E:\CA\TestCA\simworld.cpp(60) : error C2143: syntax error : missing ')' before ';'
+E:\CA\TestCA\simworld.cpp(153) : error C2660: 'getgap' : function does not take 0 parameters
+TestCAView.cpp
+E:\CA\TestCA\TestCAView.cpp(41) : error C2059: syntax error : '&&'
+E:\CA\TestCA\TestCAView.cpp(41) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(41) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(42) : error C2143: syntax error : missing ';' before '{'
+E:\CA\TestCA\TestCAView.cpp(42) : error C2447: missing function header (old-style formal list?)
+E:\CA\TestCA\TestCAView.cpp(42) : error C2143: syntax error : missing ';' before ','
+E:\CA\TestCA\TestCAView.cpp(43) : error C2143: syntax error : missing ';' before '{'
+E:\CA\TestCA\TestCAView.cpp(43) : error C2447: missing function header (old-style formal list?)
+E:\CA\TestCA\TestCAView.cpp(43) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(315) : error C2248: 'SetDetector' : cannot access private member declared in class 'CUIConfig'
+        e:\ca\testca\uiconfig.h(31) : see declaration of 'SetDetector'
+E:\CA\TestCA\TestCAView.cpp(333) : error C2061: syntax error : identifier 'CDlg'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : error C2143: syntax error : missing ';' before '}'
+E:\CA\TestCA\TestCAView.cpp(335) : fatal error C1003: error count exceeds 100; stopping compilation
+UIConfig.cpp
+E:\CA\TestCA\UIConfig.cpp(33) : error C2065: 'ptDetector' : undeclared identifier
+E:\CA\TestCA\UIConfig.cpp(33) : error C2228: left of '.assign' must have class/struct/union type
+E:\CA\TestCA\UIConfig.cpp(243) : error C2065: 'dist' : undeclared identifier
+DlgD.cpp
+E:\CA\TestCA\DlgD.cpp(40) : error C2065: 'CTestCAView' : undeclared identifier
+E:\CA\TestCA\DlgD.cpp(40) : error C2059: syntax error : ')'
+Generating Code...
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+TestCA.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
